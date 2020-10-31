@@ -1,0 +1,333 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Okra', 'Helvetica';
+}
+
+#bg{
+    
+    background: url(images/bg2.jpeg);
+    background-size: cover;
+}
+
+img{
+
+    height: 50%;
+    width: 50%;
+    margin: 40px;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.header{
+    
+    background: url(images/bg2.jpeg);
+    background-size: cover;
+    color: white;
+    padding: 25px 80px 25px 110px;
+}
+
+.header a{
+    
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    letter-spacing: 0.5px;
+    font-size: 1.1em;
+}
+
+.header a:hover{
+
+    color: #ffe06e;
+}
+
+.main a{
+    
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-right: 250px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-size: 1.1em;
+}
+
+.main a:hover{
+
+    color: #ffe06e;
+}
+
+.link{
+    
+    float: right;
+}
+
+.head{
+    
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.head h1{
+    
+    font-family: 'Chiller';
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.head h2{
+    
+    font-size: 37px;
+    font-weight: normal;
+    padding: 15px 0 25px 0;
+}
+
+.head select{
+    
+    border: none;
+    outline: none;
+    margin: 13px 13px 13px 0px;
+    font-size: 15px;
+    color: #757575;
+    border-right: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.head input{
+    
+    border: none;
+    outline: none;
+    width: 350px;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.main{
+    
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.main button{
+    
+    border: none;
+    outline: none;
+    width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+#menu{
+    
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-option{
+      
+    width: 255px;
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 50px;
+    margin: 12px;
+}
+
+.image{
+    
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.menu-option p{
+   
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 13px;
+}
+
+h1{
+
+    font-size: 50px;
+}
+
+table{
+
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+table tr{
+
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+table td{
+
+    padding: 0 20px;
+    color: black;
+}
+
+th{
+
+    color: black;
+    padding: 5px;
+}
+
+form{
+
+    padding: 10px;
+    margin: 10px;
+}
+
+form input{
+
+    padding: 1.5px;
+    border-radius: 4px;
+}
+
+.footer{
+
+    background-color: #f3f3f3;
+    padding: 15px 110px 0 110px;
+    border-top: 8px solid #e2e2e2;
+}
+
+.footer h2{
+    
+    color: black;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.footer-top #logo{
+    
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Chiller';
+}
+
+.options{
+    
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px 10px 0 10px;
+    font-size: 16px;
+}
+
+.inner-footer{
+    
+    padding-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.footer-items{
+    
+    width: 20%;
+/*    text-align: center;*/
+}
+
+.footer-items ul li{
+    
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer-items ul li h2{
+    
+    font-size: 13.5px;
+    font-weight: normal;
+    letter-spacing: 2.5px;
+    margin-bottom: 5px;
+}
+
+.footer-items ul li a{
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: #696969;
+}
+
+.footer-items ul li a:hover{
+    
+    color: #333;
+}
+
+.footer-items ul li a i{
+    
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 6px 8px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+#app{
+    
+    width: 142px;
+    height: 33px;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #08505a;
+}
+
+#app p{
+    
+    color: white;
+    text-align: center;
+}
+
+.small{
+    
+    font-size: 9px;
+}
+
+.big{
+    
+    padding: 3px;
+    font-size: 17px;
+}
+
+#app i{
+    
+    padding-right: 0;
+    float: left;
+    background: none;
+    font-size: 25px;
+    margin: 0;
+}
+
+.footer-bottom{
+    
+    padding: 25px 0;
+    font-size: 14px;
+    color: #696969;
+}
+
+@media screen and (width: 1085px){
+    
+    .header{
+        
+        width: 50%;
+    }
+}
